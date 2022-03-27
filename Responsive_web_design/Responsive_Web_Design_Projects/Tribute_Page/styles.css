@@ -25,9 +25,12 @@ header figure{
 }
 
 header img{
-  width: 60%;
+  display: block;
   margin-bottom: 1%;
+  max-width: 100%;
+  padding-right: 1%;
 }
+
 
 main {
 	margin: 0% 1% 0% 1%;
