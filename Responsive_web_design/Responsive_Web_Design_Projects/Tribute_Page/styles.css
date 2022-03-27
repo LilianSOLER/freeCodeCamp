@@ -1,36 +1,39 @@
 body {
 	display: grid;
 	margin: 0;
-  font-size: 10px;
+	font-size: 10px;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+		"Helvetica Neue", Arial, sans-serif;
 }
 
-header, main, footer{
-  background-color: #eee;
+header,
+main,
+footer {
+	background-color: #eee;
 }
 
 header {
 	border-radius: 2% 2% 0% 0%;
 	margin: 2% 1% 0% 1%;
-  text-align: center;
-  font-size: 1rem;
+	text-align: center;
+	font-size: 1rem;
 }
 
-header h1{
-  font-size: 3rem;
+header h1 {
+	font-size: 3rem;
 }
 
-header figure{
-  background-color: white;
-  padding: 1%;
+header figure {
+	background-color: white;
+	padding: 1%;
 }
 
-header img{
-  display: block;
-  margin-bottom: 1%;
-  max-width: 100%;
-  padding-right: 1%;
+header img {
+	display: block;
+	margin-bottom: 1%;
+	max-width: 100%;
+	padding-right: 1%;
 }
-
 
 main {
 	margin: 0% 1% 0% 1%;
@@ -40,31 +43,31 @@ main {
 }
 
 main h2 {
-  font-size: 2rem;
-  text-align: center;
-  grid-row: 1;
-  grid-column: 2 / 5;
+	font-size: 2rem;
+	text-align: center;
+	grid-row: 1;
+	grid-column: 2 / 5;
 }
 
 section {
-  font-size: 1.1rem;
-  grid-row: 2;
-  grid-column: 3;
+	font-size: 1.1rem;
+	grid-row: 2;
+	grid-column: 3;
 }
 
 main figure {
-  font-size: 1.1rem;
-  grid-row: 3;
-  grid-column: 3;
+	font-size: 1.1rem;
+	grid-row: 3;
+	grid-column: 3;
 }
 
 main ul li {
-  margin-bottom: 5%; 
+	margin-bottom: 5%;
 }
 
 footer {
-  border-radius: 0% 0% 2% 2%;
+	border-radius: 0% 0% 2% 2%;
 	margin: 0% 1% 2% 1%;
-  font-size: 1.4rem;
-  text-align: center;
+	font-size: 1.4rem;
+	text-align: center;
 }
