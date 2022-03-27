@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap");
+
+:root {
+	--color-white: #f3f3f3;
+	--color-darkblue: #1b1b32;
+	--color-darkblue-alpha: rgba(27, 27, 50, 0.8);
+	--color-green: #37af65;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Poppins", sans-serif;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.4;
+	color: var(--color-white);
+	margin: 0;
+}
+
+body::before {
+	content: "";
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+	background: var(--color-darkblue);
+	background-image: linear-gradient(
+			115deg,
+			rgba(58, 58, 158, 0.8),
+			rgba(136, 136, 206, 0.7)
+		),
+		url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+form {
+	background: var(--color-darkblue-alpha);
+	border-radius: 0.25rem;
+}
+
+/* Copy of example to have the same chart */
+
+body {
+	justify-content: center;
+}
+header {
+	text-align: center;
+}
+
+header h1 {
+	font-weight: 100;
+}
+
+header p {
+	font-style: italic;
+	font-size: 1.25rem;
+}
+
+form {
+	margin: auto;
+	padding: 5% 0% 0% 5%;
+	font-size: 1.1rem;
+	max-width: 1000px;
+  width: 90%;
+}
+
+form p {
+	margin: 0;
+}
+
+form input,
+form select,
+form textarea {
+	width: 90%;
+	height: 2.5rem;
+	border-radius: 0.25rem;
+	padding-left: 1.5%;
+	padding-right: 1.5%;
+	margin-bottom: 5%;
+	font-size: 1rem;
+}
+
+form input[type="checkbox"],
+form input[type="radio"] {
+	width: auto;
+	height: auto;
+	border-radius: 0%;
+	margin: 0;
+}
+
+form div {
+	width: 90%;
+	margin-bottom: 5%;
+}
+
+form div label {
+	display: flex;
+	align-items: center;
+}
+
+form div label p {
+	padding-left: 2%;
+	font-size: 1.25rem;
+	font-weight: 50;
+}
+
+form span.parenthesis {
+	font-size: 0.75rem;
+}
+
+form textarea {
+	color: var(--color-darkblue-alpha);
+	height: 7rem;
+	text-align: justify;
+	padding: 2%;
+}
+
+form button {
+	width: 90%;
+	height: 2.5rem;
+	font-size: 1.25rem;
+	background-color: var(--color-green);
+	color: var(--color-white);
+	border-radius: 0.5rem;
+	margin-bottom: 10%;
+}
