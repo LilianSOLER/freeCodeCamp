@@ -134,3 +134,9 @@ section.vertical p {
   justify-self: baseline;
 	grid-area: 2 / 2 / 3 / 3;
 }
+
+iframe {
+  width: 60%;
+  height: 20rem;
+  margin-bottom: 10%;
+}
