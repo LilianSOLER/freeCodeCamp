@@ -44,7 +44,7 @@ footer {
 
 /* Copy of example to have the same chart */
 
-header {
+.fixed-header {
 	position: fixed;
 	width: 100%;
 	top: 0;
@@ -62,7 +62,8 @@ header img {
 header nav {
   float: right;
   display: flex;
-  width: 15%;
+  justify-content: space-around;
+  width: 30%;
   min-width: max-content;
   padding: 10px;
 }
@@ -70,3 +71,32 @@ header nav {
 nav p {
   padding-right: 10px;
 }
+
+.hero-banner{
+  text-align: center;
+  margin: 5% auto 10% auto;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 100;
+  margin-bottom: 1%;
+}
+
+.hero-banner input {
+  height: 2rem;
+  border-radius: 0.25rem;
+}
+.hero-banner input[type="email"] {
+  width: 15%;
+  padding-left: 0.5%;
+  margin-bottom: 0.5%;
+}
+
+.hero-banner input[type="submit"] {
+  width: 10%;
+  font-size: medium;
+  font-weight: bold;
+  border: none;
+}
+
