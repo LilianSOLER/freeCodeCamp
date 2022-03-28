@@ -111,32 +111,66 @@ main {
 	margin-top: -5%;
 }
 
-section.vertical div {
+.vertical div {
 	display: grid;
 	grid-template-columns: 1fr 5fr;
 	grid-template-rows: repeat(2, 1fr);
 	grid-column-gap: 0px;
 	grid-row-gap: 0px;
-  margin-bottom: 5%;
+	margin-bottom: 5%;
 }
 
-section.vertical i {
+.vertical i {
 	grid-area: 1 / 1 / 3 / 2;
 }
 
-section.vertical h3 {
-  justify-self: baseline;
+.vertical h3 {
+	justify-self: baseline;
 	grid-area: 1 / 2 / 2 / 3;
-  font-size: 1.5rem;
+	font-size: 1.5rem;
 }
 
-section.vertical p {
-  justify-self: baseline;
+.vertical p {
+	justify-self: baseline;
 	grid-area: 2 / 2 / 3 / 3;
 }
 
 iframe {
-  width: 60%;
-  height: 20rem;
-  margin-bottom: 10%;
+	width: 60%;
+	height: 20rem;
+	margin-bottom: 10%;
+}
+
+.horizontal {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: 1fr;
+	grid-column-gap: 2%;
+	padding: 0% 1% 5% 1%;
+}
+
+.horizontal div {
+	border: 1px solid black;
+	height: auto;
+}
+
+.horizontal h3 {
+	font-weight: 200;
+	padding: 5%;
+}
+
+.horizontal p {
+	padding: 5%;
+}
+
+.price {
+	font-weight: bold;
+	font-size: 1.1rem;
+}
+
+.horizontal input {
+  font-weight: 100;
+	margin-bottom: 10%;
+  border: none;
+  padding: 5% 10% 5% 10%;
 }
