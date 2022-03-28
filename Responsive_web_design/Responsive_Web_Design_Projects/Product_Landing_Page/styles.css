@@ -68,7 +68,7 @@ header nav {
 	padding: 10px;
 }
 
-nav p {
+.nav-link {
 	padding-right: 10px;
 }
 
@@ -160,7 +160,7 @@ iframe {
 }
 
 .horizontal p {
-	padding: 5%;
+	padding: 2%;
 }
 
 .price {
@@ -169,8 +169,41 @@ iframe {
 }
 
 .horizontal input {
-  font-weight: 100;
+	font-weight: 100;
 	margin-bottom: 10%;
-  border: none;
-  padding: 5% 10% 5% 10%;
+	border: none;
+	padding: 5% 10% 5% 10%;
+}
+
+footer {
+	padding: 1%;
+	height: auto;
+}
+
+footer nav {
+	display: flex;
+	float: right;
+	justify-content: space-around;
+	width: 20%;
+}
+
+#copyright {
+	display: float;
+	float: right;
+}
+
+@media (max-width: 800px) {
+	body {
+		font-family: sans-serif;
+		background-color: black;
+		color: #eee;
+	}
+
+  #pricing div {
+    border : 1px solid #eee;
+  }
+
+  #pricing h3{
+    background-color: #444;
+  }
 }
