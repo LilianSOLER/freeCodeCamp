@@ -1,0 +1,72 @@
+/** global element styling **/
+
+@import "https://fonts.googleapis.com/css?family=Lato:400,700";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #eee;
+	font-family: "Lato", sans-serif;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+input[type="submit"] {
+	background-color: #f1c40f;
+}
+
+i {
+	color: darkorange;
+}
+
+section.horizontal h3 {
+	background-color: #ddd;
+}
+
+footer {
+	background-color: #ddd;
+}
+
+#copyright {
+	color: #444;
+}
+
+/* Copy of example to have the same chart */
+
+header {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	width: 100%;
+  min-width: 600px;
+	height: 5%;
+	background-color: #eee;
+}
+
+header img {
+	height: 90%;
+  float: left;
+}
+
+header nav {
+  float: right;
+  display: flex;
+  width: 15%;
+  min-width: max-content;
+  padding: 10px;
+}
+
+nav p {
+  padding-right: 10px;
+}
